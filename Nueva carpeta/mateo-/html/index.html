@@ -3,9 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Nueva carpeta/mateo-/styles/reset.css" />
-    <link rel="stylesheet" href="/Nueva carpeta/mateo-/styles/styles.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -27,17 +24,20 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Página de Películas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   </head>
   <body>
     <header>
       <h1>Página de Películas</h1>
       <nav>
         <ul>
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./abaut.html">Sobre mi proyecto</a></li>
-          <li><a href="./history.html">Historia del cine</a></li>
-          <li><a href="./index.html">Películas</a></li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="abaut.html">Sobre mi proyecto</a></li>
+          <li><a href="history.html">Historia del cine</a></li>
+          <li><a href="#">Películas</a></li>
           <li><a href="#">Series</a></li>
           <li><a href="#">Contacto</a></li>
         </ul>
@@ -47,11 +47,11 @@
     <main>
       <section class="peliculas" id="peliculas">
         <h2>Películas Destacadas</h2>
+
         <!-- Las tarjetas de películas se agregarán aquí dinámicamente -->
-        <div class="cards-container" id="movies-container"></div>
       </section>
     </main>
+    
+    <script src="./public/bundle.js"></script>
   </body>
-
-  <script src="/Nueva carpeta/mateo-/styles/scripts/index.js"></script>
 </html>
