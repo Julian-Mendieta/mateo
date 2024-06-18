@@ -10,5 +10,8 @@
   "description": "",
   "devDependencies": {
     "morgan": "^1.10.0"
+  },
+  "dependencies": {
+    "mongoose": "^8.4.1"
   }
 }
